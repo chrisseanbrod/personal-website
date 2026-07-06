@@ -4,18 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Christopher Broderick | Product Leader</title>
-  <meta name="description" content="Christopher Broderick is a Dublin-based Product Leader building AI-powered enterprise SaaS, fintech, automation and platform products." />
+  <meta name="description" content="Christopher Broderick is a Dublin-based Product Leader building AI-powered enterprise SaaS, automation, finance and operations products." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <nav class="nav">
       <a class="logo" href="#home" aria-label="Christopher Broderick home">CB</a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
       <div class="nav-links" id="navLinks">
         <a href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#experience">Experience</a>
+        <a href="#experience-areas">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#cv">CV</a>
         <a href="#contact">Contact</a>
@@ -26,21 +26,23 @@
   <main>
     <section class="hero section" id="home">
       <div class="hero-copy reveal">
-        <p class="eyebrow">Product Leader · Enterprise SaaS · AI Automation</p>
-        <h1>I build AI-powered enterprise products that automate complex work.</h1>
+        <p class="eyebrow">Product Leader · AI Automation · Enterprise SaaS</p>
+        <h1>I build AI-powered products that turn complex work into scalable systems.</h1>
         <p class="intro">
-          I’m Christopher Broderick, a Dublin-based Product Leader with 10+ years’ experience across B2B SaaS,
-          fintech, data platforms, workflow automation and AI-enabled products.
+          I’m Christopher Broderick, a Dublin-based Product Leader with 10+ years’ experience across product,
+          automation, operations and finance. My work sits where customer problems, data, workflow and enterprise
+          delivery meet.
         </p>
         <div class="hero-actions">
-          <a class="button primary" href="#projects">View projects</a>
-          <a class="button secondary" href="assets/Chris_Sean_Broderick.docx" download>Download CV</a>
-          <a class="button ghost" href="mailto:lcvp1993@gmail.com">Contact me</a>
+          <a class="button primary" href="#experience-areas">Explore experience</a>
+          <a class="button secondary" href="#projects">View projects</a>
+          <a class="button ghost" href="assets/Chris_Sean_Broderick.docx" download>Download CV</a>
         </div>
       </div>
-      <aside class="hero-card reveal">
-        <p class="card-label">Current focus</p>
-        <h2>AI, agents, RAG, workflow automation and platform products.</h2>
+
+      <aside class="hero-card reveal" aria-label="Profile summary">
+        <p class="card-label">Profile</p>
+        <h2>AI, automation, fintech platforms, RAG, agents and workflow products.</h2>
         <div class="quick-stats">
           <div><strong>10+</strong><span>Years experience</span></div>
           <div><strong>25K+</strong><span>Files classified</span></div>
@@ -54,16 +56,19 @@
         <p class="eyebrow">About me</p>
         <h2>Product leadership across AI, data, fintech and enterprise workflows.</h2>
       </div>
+
       <div class="about-grid">
         <div class="panel reveal">
           <p>
-            I work at the intersection of customer problems, technical complexity and measurable business value.
-            My background spans AI automation, enterprise SaaS, API-driven platforms, secure file management,
-            RAG-enabled knowledge retrieval, financial operations and regulated environments.
+            I specialise in taking complex operational problems and shaping them into products that can be adopted,
+            governed and scaled. My background covers AI-enabled automation, enterprise SaaS, API-driven platforms,
+            secure file management, RBAC, RAG-enabled knowledge retrieval, financial operations and regulated workflows.
           </p>
         </div>
-        <div class="skills reveal">
+
+        <div class="skills reveal" aria-label="Core skills">
           <span>Product Strategy</span>
+          <span>Roadmap Prioritisation</span>
           <span>AI Product Management</span>
           <span>Agentic Workflows</span>
           <span>RAG Systems</span>
@@ -72,41 +77,177 @@
           <span>API Integrations</span>
           <span>RBAC</span>
           <span>Fintech</span>
+          <span>Operations</span>
           <span>Product Analytics</span>
         </div>
       </div>
     </section>
 
-    <section class="section" id="experience">
+    <section class="section" id="experience-areas">
       <div class="section-heading reveal">
-        <p class="eyebrow">Experience</p>
-        <h2>Professional timeline</h2>
+        <p class="eyebrow">Experience areas</p>
+        <h2>Split by Product, Automation, Operations and Finance.</h2>
+        <p class="section-subtitle">Click each card to expand the detail.</p>
       </div>
+
+      <div class="experience-grid">
+        <article class="experience-card reveal" data-area="product">
+          <button class="experience-card-top" type="button" aria-expanded="false">
+            <span class="area-icon">01</span>
+            <span>
+              <span class="area-kicker">Product</span>
+              <strong>Enterprise SaaS & platform product leadership</strong>
+            </span>
+            <span class="expand-icon">+</span>
+          </button>
+
+          <div class="experience-summary">
+            <div><strong>10+</strong><span>years</span></div>
+            <div><strong>0→1</strong><span>platforms</span></div>
+            <div><strong>3</strong><span>squads scaled</span></div>
+          </div>
+
+          <div class="experience-details">
+            <p>
+              Product leadership across B2B SaaS, enterprise workflow products, secure file platforms, customer-facing
+              AI capabilities and internal tooling.
+            </p>
+            <ul>
+              <li>Led 0-to-1 server and instance management platform delivery at EBM Software.</li>
+              <li>Owned roadmap strategy and prioritisation for EZOPS Intelligent Process Automation.</li>
+              <li>Partnered with Engineering, Design, Sales, Customer Success and C-suite stakeholders.</li>
+              <li>Worked across discovery, validation, roadmap, release planning, adoption and outcome metrics.</li>
+            </ul>
+            <a href="#projects">View related projects</a>
+          </div>
+        </article>
+
+        <article class="experience-card reveal" data-area="automation">
+          <button class="experience-card-top" type="button" aria-expanded="false">
+            <span class="area-icon">02</span>
+            <span>
+              <span class="area-kicker">Automation</span>
+              <strong>AI agents, RAG systems and workflow automation</strong>
+            </span>
+            <span class="expand-icon">+</span>
+          </button>
+
+          <div class="experience-summary">
+            <div><strong>25K+</strong><span>files classified</span></div>
+            <div><strong>€0.009</strong><span>per file</span></div>
+            <div><strong>4–6h</strong><span>PMM output</span></div>
+          </div>
+
+          <div class="experience-details">
+            <p>
+              Practical AI delivery focused on governed automation, human-in-the-loop review, knowledge retrieval and
+              workflow execution.
+            </p>
+            <ul>
+              <li>Designed MCP-adjacent agentic workflows using Atlassian Rovo and Confluence AI.</li>
+              <li>Led secure multi-LLM RAG platform delivery with RBAC, usage controls and synthesis flows.</li>
+              <li>Built ML-powered file classification with accepted/rejected feedback loops.</li>
+              <li>Automated release notes, customer success documentation and marketing collateral workflows.</li>
+            </ul>
+            <a href="#projects">View related projects</a>
+          </div>
+        </article>
+
+        <article class="experience-card reveal" data-area="operations">
+          <button class="experience-card-top" type="button" aria-expanded="false">
+            <span class="area-icon">03</span>
+            <span>
+              <span class="area-kicker">Operations</span>
+              <strong>Workflow control, process improvement and delivery execution</strong>
+            </span>
+            <span class="expand-icon">+</span>
+          </button>
+
+          <div class="experience-summary">
+            <div><strong>15+</strong><span>contributors led</span></div>
+            <div><strong>RBAC</strong><span>governance</span></div>
+            <div><strong>QA</strong><span>release control</span></div>
+          </div>
+
+          <div class="experience-details">
+            <p>
+              Operational experience across middle-office processes, task management, delivery governance, stakeholder
+              coordination and scalable execution.
+            </p>
+            <ul>
+              <li>Led process improvement across hedge fund middle-office workflows at Citco.</li>
+              <li>Improved controls across reconciliation, exception handling and stakeholder workflows.</li>
+              <li>Led 15+ cross-functional contributors across Engineering, QA and Business Analysis at EZOPS.</li>
+              <li>Delivered task management and secure folder workflows for M&A and operational use cases.</li>
+            </ul>
+            <a href="#projects">View related projects</a>
+          </div>
+        </article>
+
+        <article class="experience-card reveal" data-area="finance">
+          <button class="experience-card-top" type="button" aria-expanded="false">
+            <span class="area-icon">04</span>
+            <span>
+              <span class="area-kicker">Finance</span>
+              <strong>Fintech, reconciliation, trading and regulated finance</strong>
+            </span>
+            <span class="expand-icon">+</span>
+          </button>
+
+          <div class="experience-summary">
+            <div><strong>30%</strong><span>visibility uplift</span></div>
+            <div><strong>€10K–€35K</strong><span>MRR features</span></div>
+            <div><strong>Regulated</strong><span>markets</span></div>
+          </div>
+
+          <div class="experience-details">
+            <p>
+              Deep finance domain experience across fintech automation, reconciliation, reporting, trading operations,
+              securities, derivatives and regulated data processes.
+            </p>
+            <ul>
+              <li>Delivered AI-enabled reconciliation, reporting and exception-management capabilities at EZOPS.</li>
+              <li>Contributed to CFD cost-transparency tooling at Fidelity, improving broker fee visibility by up to 30%.</li>
+              <li>Supported LIBOR-to-SONIA transition work and securities workflows at Citi.</li>
+              <li>Worked across financial controls, interest calculations, bond reviews and enterprise reporting outputs.</li>
+            </ul>
+            <a href="#projects">View related projects</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="timeline">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Career timeline</p>
+        <h2>Roles and progression</h2>
+      </div>
+
       <div class="timeline">
         <article class="timeline-item reveal">
           <span class="date">2024 — Present</span>
           <h3>Senior Product Leader / Senior Product Manager · EBM Software</h3>
-          <p>Leading AI-enabled fintech and enterprise automation products across RAG chat, secure file management, task management, RBAC, server and instance management, ML classification and agent workflows.</p>
+          <p>AI-enabled fintech and enterprise automation products across RAG chat, secure file management, task management, RBAC, server and instance management, ML classification and agent workflows.</p>
         </article>
         <article class="timeline-item reveal">
           <span class="date">2021 — 2024</span>
           <h3>Product Manager · EZOPS</h3>
-          <p>Owned roadmap strategy for Intelligent Process Automation covering reconciliation, reporting, exception management, workflow automation, API workflows and enterprise financial operations.</p>
+          <p>Roadmap ownership for Intelligent Process Automation across reconciliation, reporting, exception management, workflow automation, API workflows and enterprise financial operations.</p>
         </article>
         <article class="timeline-item reveal">
           <span class="date">2020 — 2021</span>
           <h3>Senior Operations Analyst · Citco Fund Services</h3>
-          <p>Led process improvement across hedge fund middle-office workflows, controls, reconciliations, exception handling and vendor coordination.</p>
+          <p>Process improvement across hedge fund middle-office workflows, controls, reconciliations, exception handling and vendor coordination.</p>
         </article>
         <article class="timeline-item reveal">
           <span class="date">2019 — 2020</span>
           <h3>Trading Analyst · Fidelity International</h3>
-          <p>Contributed to cost-transparency tooling, broker fee visibility, trading decision support and operational reporting.</p>
+          <p>Cost-transparency tooling, broker fee visibility, trading decision support and operational reporting.</p>
         </article>
         <article class="timeline-item reveal">
           <span class="date">2015 — 2019</span>
           <h3>Securities and Derivatives Analyst · Citi</h3>
-          <p>Supported regulated securities, derivatives, bond reviews, interest-rate calculations, data validation and LIBOR-to-SONIA transition work.</p>
+          <p>Regulated securities, derivatives, bond reviews, interest-rate calculations, data validation and LIBOR-to-SONIA transition work.</p>
         </article>
       </div>
     </section>
@@ -116,39 +257,42 @@
         <p class="eyebrow">Projects</p>
         <h2>Selected product work</h2>
       </div>
+
       <div class="filters reveal" aria-label="Project filters">
         <button class="filter active" data-filter="all">All</button>
-        <button class="filter" data-filter="ai">AI</button>
-        <button class="filter" data-filter="platform">Platform</button>
+        <button class="filter" data-filter="product">Product</button>
         <button class="filter" data-filter="automation">Automation</button>
+        <button class="filter" data-filter="operations">Operations</button>
+        <button class="filter" data-filter="finance">Finance</button>
       </div>
+
       <div class="project-grid">
-        <article class="project-card reveal" data-category="ai platform">
+        <article class="project-card reveal" data-category="product automation finance">
           <span>EBM Software</span>
           <h3>Secure Multi-LLM RAG Platform</h3>
           <p>Enterprise-scale querying of business and financial data with RBAC, usage controls, cost controls and AI-assisted response synthesis.</p>
         </article>
-        <article class="project-card reveal" data-category="ai automation">
+        <article class="project-card reveal" data-category="automation product operations">
           <span>EBM Software</span>
           <h3>Agentic AI Workflow Network</h3>
           <p>Scoped agents with approved knowledge banks, controlled workflow permissions, Microsoft Teams integrations and human approval gates.</p>
         </article>
-        <article class="project-card reveal" data-category="ai automation">
+        <article class="project-card reveal" data-category="automation operations product">
           <span>EBM Software</span>
           <h3>ML File Classification</h3>
           <p>Canonical data-room and internal file organisation model classifying 25K+ files at €0.009 per file with feedback loops.</p>
         </article>
-        <article class="project-card reveal" data-category="platform">
+        <article class="project-card reveal" data-category="product operations">
           <span>EBM Software</span>
           <h3>Server & Instance Management</h3>
           <p>0-to-1 platform for environment provisioning, permissions, feature activation and external system connections.</p>
         </article>
-        <article class="project-card reveal" data-category="automation platform">
+        <article class="project-card reveal" data-category="automation finance product">
           <span>EZOPS</span>
           <h3>Financial Workflow Automation</h3>
           <p>Roadmap ownership across reconciliation, reporting, exception management, API workflows and enterprise financial operations.</p>
         </article>
-        <article class="project-card reveal" data-category="automation">
+        <article class="project-card reveal" data-category="operations product automation">
           <span>EBM Software</span>
           <h3>LMS Replacement</h3>
           <p>Custom learning management system replacing legacy tooling and saving approximately $300K annually.</p>
@@ -162,10 +306,10 @@
         <h2>Outcomes and measurable results</h2>
       </div>
       <div class="metric-grid reveal">
-        <div><strong data-count="25000">0</strong><span>Files classified</span></div>
+        <div><strong data-count="25000" data-suffix="+">0</strong><span>Files classified</span></div>
         <div><strong>€0.009</strong><span>Per file processed</span></div>
         <div><strong>$300K</strong><span>Annual saving</span></div>
-        <div><strong data-count="200">0</strong><span>% adoption growth</span></div>
+        <div><strong data-count="200" data-suffix="%">0</strong><span>Platform adoption growth</span></div>
       </div>
     </section>
 
@@ -174,7 +318,7 @@
         <div>
           <p class="eyebrow">CV</p>
           <h2>Download my CV</h2>
-          <p>Full background across product leadership, AI automation, enterprise SaaS, fintech and platform products.</p>
+          <p>Full background across product leadership, AI automation, enterprise SaaS, fintech, operations and platform products.</p>
         </div>
         <a class="button primary" href="assets/Chris_Sean_Broderick.docx" download>Download CV</a>
       </div>
